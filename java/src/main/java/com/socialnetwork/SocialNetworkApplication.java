@@ -2,7 +2,7 @@ package com.socialnetwork;
 
 import java.util.List;
 
-public class SocialNetworkApplication implements ReadUserWallCallbacks {
+public class SocialNetworkApplication implements ReadUserWallEvents {
     private final InputAdapter inputAdapter;
     private final OutputAdapter outputAdapter;
 
